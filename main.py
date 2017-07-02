@@ -7,7 +7,10 @@ def main():
 
     search_urls = [('http://www.mirkvartir.ru/Волгоградская+область/Волгоград/', 'http://www.mirkvartir.ru/'),
                    ('http://arenda.mirkvartir.ru/Волгоградская+область/Волгоград/', 'http://arenda.mirkvartir.ru/'),
-                   ('http://dom.mirkvartir.ru/Волгоградская+область/Волгоград/', 'http://dom.mirkvartir.ru/')]
+                   ('http://dom.mirkvartir.ru/Волгоградская+область/Волгоград/', 'http://dom.mirkvartir.ru/'),
+                   ('http://arendadoma.mirkvartir.ru/Волгоградская+область/Волгоград/', 'http://arendadoma.mirkvartir.ru/'),
+                   ('http://arendacre.mirkvartir.ru/Волгоградская+область/Волгоград/', 'http://arendacre.mirkvartir.ru/'),
+                   ('http://zem.mirkvartir.ru/Волгоградская+область/Волгоград/', 'http://zem.mirkvartir.ru/')]
 
     for url, main_url in search_urls:
         print('Start scaning:', url)
